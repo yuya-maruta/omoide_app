@@ -1,7 +1,6 @@
 @extends('layouts.app')
 @section('content')
 <div class="panel-body">
-
 @include('common.errors')
 
 <div class="d-flex flex-column align-items-center mt-3">
@@ -15,7 +14,9 @@
         {{csrf_field()}} 
           <div class="form-group row mt-2">
             <div class="col-auto pr-0">
-              <img class="post-profile-icon round-img" src="{{ asset('storage/user_images/' . Auth::user()->id . '.jpg') }}"/>
+              @if (Auth::user()->image)
+                <img class="post-profile-icon round-img" src="data:image/png;base64,{{ Auth::user()->image }}"/>
+              @endif
             </div>
             <div class="col pl-0">
               <input class="form-control border-0" placeholder="キャプションを書く" type="text" name="caption" value="{{ old('list_name') }}"/>
@@ -25,7 +26,8 @@
             <input type="file" name="photo" accept="image/jpeg,image/gif,image/png" />
           </div>
           <input type="submit" name="commit" value="投稿する" class="btn btn-primary" data-disable-with="投稿する" />
-</form>      </div>
+        </form>
+      </div>
     </div>
   </div>
 </div>
