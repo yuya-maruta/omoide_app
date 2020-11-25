@@ -14,7 +14,7 @@
         {{csrf_field()}} 
           <div class="form-group row mt-2">
             <div class="col-auto pr-0">
-              @if (Auth::user()->image)
+             @if (Auth::user()->image)
                 <img class="post-profile-icon round-img" src="data:image/png;base64,{{ Auth::user()->image }}"/>
               @endif
             </div>
