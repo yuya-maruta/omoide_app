@@ -6,7 +6,7 @@
     <div class="form-wrap">
       <div class="form-group text-center">
         <h2 class="logo-img mx-auto"></h2>
-        <p class="text-secondary">友達の写真や動画をチェックしよう</p>
+        <p class="text-secondary">友達や家族の思い出をチェックしよう</p>
       </div>
       <form method="POST" action="{{ route('register') }}">
         {{ csrf_field() }}
