@@ -1,12 +1,15 @@
 # Omoide_app
 ![image](https://user-images.githubusercontent.com/68633204/100404549-006fdc00-30a5-11eb-9255-97d040718a35.png)
 
+
 ## AppURL
 https://laravelgramapp.herokuapp.com/ 
+
 
 ## ログイン用
 * E-mail:abcd123@abcd.com
 * Password:abcd123
+
 
 ## 概要
 自分と大切な人のために記録・共有するアプリ。
@@ -20,9 +23,13 @@ https://laravelgramapp.herokuapp.com/
 * 投稿削除機能
 * いいね機能
 * コメント機能
-* 
 
 
 ## 制作背景
+* 予期せぬ出来事で子育てと介護を両立することになり疲弊している家族にむけて制作。
+
+　 子どもの日々の成長を記録として残し見返すことで心を癒してもらうことが目的。
+
+* スクールで学習していない言語を学習したいと思いlaravelを使用し制作。
 
     
