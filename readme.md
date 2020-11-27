@@ -1,4 +1,5 @@
 # Omoide_app
+![image](https://user-images.githubusercontent.com/68633204/100404549-006fdc00-30a5-11eb-9255-97d040718a35.png)
 
 ## AppURL
 
