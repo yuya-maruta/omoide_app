@@ -35,25 +35,25 @@ https://laravelgramapp.herokuapp.com/
 ## DEMO
 
 
-##ホーム画面
+## ホーム画面
 ![image](https://user-images.githubusercontent.com/68633204/105161849-2f5e7780-5b55-11eb-864b-4c6a89485fae.png)
 
 
-##投稿画面
+## 投稿画面
 ![image](https://user-images.githubusercontent.com/68633204/105162170-9d0aa380-5b55-11eb-9e03-3c46c0d7ad0a.png)
 
 
-##編集画面
+## 編集画面
 ![image](https://user-images.githubusercontent.com/68633204/105162322-cf1c0580-5b55-11eb-90f0-7ae941e1ec05.png)
 
 
-##ユーザー新規登録画面
+## ユーザー新規登録画面
 ![image](https://user-images.githubusercontent.com/68633204/105162498-0985a280-5b56-11eb-8e32-55c1da99d532.png)
 
 
-##ログイン画面
+## ログイン画面
 ![image](https://user-images.githubusercontent.com/68633204/105162601-320d9c80-5b56-11eb-9e48-bd5fe7976606.png)
 
 
-##DB設計
+## DB設計
 ![image](https://user-images.githubusercontent.com/68633204/105162838-7862fb80-5b56-11eb-840e-44ab8de372ef.png)
