@@ -5,7 +5,7 @@
 }
 .navbar__brand {
   height: 80px;
-  width: 300px;
+  width: 120px;
   background-size: 100px;
 }
 .navbar__mainLogo {
@@ -51,15 +51,13 @@ body {
   margin: 50px auto;
 }
 .logo-img {
-    background-image: url(/images/logo4.jpg);
-    background-repeat: no-repeat;
-    height: 120px;
-    width: 400px;
-    background-size: 160px;
-    background-size: cover !important;
-    background-position: center;
+  background-image: url("/images/logo.png");
+  background-repeat: no-repeat;
+  height: 56px;
+  width: 180px;
+  background-size: 160px;
+  background-size: 180px !important;
 }
-
 .form-control {
   border: 1px solid #dcdfe6;
   font-size: inherit;
